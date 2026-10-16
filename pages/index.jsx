@@ -1,3 +1,4 @@
+import Footer from '@/Components/Footer';
 import Header from '@/Components/Header';
 import Motto from '@/Components/Motto';
 import OperateSection from '@/Components/OperateSection';
@@ -9,6 +10,7 @@ export default function Home() {
       <main className='w-full overflow-x-hidden'>
         <Motto />
         <OperateSection />
+        <Footer />
       </main>
     </>
   );

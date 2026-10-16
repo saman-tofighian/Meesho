@@ -55,12 +55,9 @@ export default function OperateSection() {
       className='isolate relative bg-[#1D58DB] mt-20 px-[6%] w-full overflow-hidden text-white'
     >
       <div className='relative mx-auto px-6 sm:px-10 lg:px-0 py-10 lg:py-0 max-w-360 lg:h-182.5 min-h-182.5'>
-        {/* Section title */}
         <h2 className='lg:top-[5.5%] lg:left-[3%] z-20 lg:absolute relative font-bold text-sm sm:text-base tracking-[0.32em]'>
           HOW WE OPERATE
         </h2>
-
-        {/* Connection lines */}
         <svg
           aria-hidden='true'
           viewBox='0 0 1440 730'
@@ -100,8 +97,6 @@ export default function OperateSection() {
 
           <path d='M 1008 410 h 8 v -8' stroke='white' strokeWidth='1.5' />
         </svg>
-
-        {/* Supplier illustration */}
         <div className='lg:block lg:top-[35%] lg:left-[4.5%] lg:absolute relative flex items-center gap-5 mt-12 lg:mt-0'>
           <div className='relative flex justify-center items-center bg-[#101D39] rounded-full w-28 sm:w-32 lg:w-28 h-28 sm:h-32 lg:h-28 overflow-hidden shrink-0'>
             <Image
@@ -124,8 +119,6 @@ export default function OperateSection() {
             </p>
           </div>
         </div>
-
-        {/* Decorative supplier product */}
         <div className='hidden lg:block top-[34%] left-[19%] absolute w-20 h-36'>
           <Image
             src='/img/products.png'
@@ -135,9 +128,7 @@ export default function OperateSection() {
             className='object-contain'
           />
         </div>
-
-        {/* Customer illustration */}
-        <div className='lg:block lg:top-[10%] lg:right-[8%] lg:absolute relative flex flex-row-reverse items-center gap-5 mt-10 lg:mt-0 lg:w-[220px]'>
+        <div className='lg:block lg:top-[10%] lg:right-[8%] lg:absolute relative flex flex-row-reverse items-center gap-5 mt-10 lg:mt-0 lg:w-55'>
           <div className='relative bg-[#101D39] lg:ml-auto rounded-full w-28 sm:w-32 lg:w-24 h-28 sm:h-32 lg:h-24 overflow-hidden shrink-0'>
             <Image
               src='/img/customer.png'
@@ -154,8 +145,6 @@ export default function OperateSection() {
             </h3>
           </div>
         </div>
-
-        {/* Customer description */}
         <p className='lg:top-[13%] lg:left-[57%] lg:absolute mt-6 lg:mt-0 text-white/90 text-xs leading-5 tracking-wide'>
           We want to
           <br />
@@ -163,9 +152,7 @@ export default function OperateSection() {
           <br />
           Indians shop online
         </p>
-
-        {/* Reseller illustration */}
-        <div className='lg:block lg:top-[59%] lg:right-[7.5%] lg:absolute relative flex items-center gap-5 mt-10 lg:mt-0 lg:w-[220px]'>
+        <div className='lg:block lg:top-[59%] lg:right-[7.5%] lg:absolute relative flex items-center gap-5 mt-10 lg:mt-0 lg:w-55'>
           <div className='relative bg-[#101D39] lg:mx-auto rounded-full w-28 sm:w-32 lg:w-24 h-28 sm:h-32 lg:h-24 overflow-hidden shrink-0'>
             <Image
               src='/img/reseller.png'
@@ -175,16 +162,13 @@ export default function OperateSection() {
               className='object-contain'
             />
           </div>
-
           <div className='lg:mt-3 lg:text-center'>
             <h3 className='font-bold text-base sm:text-lg tracking-[0.2em]'>
               RESELLERS
             </h3>
           </div>
         </div>
-
-        {/* Reseller description */}
-        <p className='lg:top-[39%] lg:left-[65%] lg:absolute mt-5 lg:mt-0 text-white/90 text-xs leading-[1.5] tracking-wide'>
+        <p className='lg:top-[39%] lg:left-[65%] lg:absolute mt-5 lg:mt-0 text-white/90 text-xs leading-normal tracking-wide'>
           We help anyone start
           <br />
           a virtual store and
@@ -193,9 +177,7 @@ export default function OperateSection() {
           <br />
           any investments
         </p>
-
-        {/* Center phone and hand */}
-        <div className='lg:bottom-0 lg:left-[39%] lg:absolute relative mx-auto mt-12 lg:mt-0 w-full lg:w-[310px] max-w-[370px] h-[310px] lg:h-[410px]'>
+        <div className='lg:bottom-0 lg:left-[39%] lg:absolute relative mx-auto mt-12 lg:mt-0 w-full lg:w-77.5 max-w-92.5 h-77.5 lg:h-102.5'>
           <Image
             src='/img/hand-phone.png'
             alt='Hand holding the Meesho app'
