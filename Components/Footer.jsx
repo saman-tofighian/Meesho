@@ -10,8 +10,8 @@ import {
 export default function Footer() {
   return (
     <footer className='mt-4 w-full h-12.5'>
-      <section className='grid grid-cols-12 px-[6%] w-full h-full'>
-        <div className='flex items-center gap-x-6 col-span-6 h-full'>
+      <section className='gap-y-8 md:gap-y-0 grid grid-cols-12 px-[6%] w-full h-full'>
+        <div className='flex justify-center md:justify-start items-center gap-x-6 col-span-12 md:col-span-6 h-full'>
           <span className='flex items-center h-full cursor-pointer'>
             <FaTwitter size='1.4rem' color='white' />
           </span>
@@ -33,10 +33,11 @@ export default function Footer() {
             />
           </figure>
         </div>
-        <div className='flex justify-end items-center gap-x-6 col-span-6 h-full'>
+        <div className='flex justify-center md:justify-end items-center gap-x-6 col-span-12 md:col-span-6 h-full'>
           <span className='flex items-center gap-x-1.5 text-white'>
             <FaRegCopyright color='white' size='1rem' className='mt-[.5px]' />
-            Saman Tofighian | 2026 All Rights Reserved
+            <strong className='text-[#1D58DB]'>Saman Tofighian</strong> | 2026
+            All Rights Reserved
           </span>
         </div>
       </section>
