@@ -13,10 +13,9 @@ const cards = [
 
 export default function GrowingSection() {
   return (
-    <section className='px-3 sm:px-5 lg:px-8 py-10 lg:py-16 w-full overflow-hidden'>
-      <div className='mx-auto w-full max-w-[1152px]'>
-        {/* Desktop */}
-        <div className='hidden lg:block relative w-full aspect-[2/1]'>
+    <section className='px-3 sm:px-5 lg:px-[6%] py-10 lg:py-16 w-full overflow-hidden'>
+      <div className='mx-auto w-full max-w-6xl'>
+        <div className='hidden lg:block relative w-full aspect-2/1'>
           {cards.map((item, index) => {
             const positions = [
               'left-0 top-0',
@@ -64,7 +63,6 @@ export default function GrowingSection() {
           </h2>
         </div>
 
-        {/* Tablet and mobile */}
         <div className='lg:hidden'>
           <div className='items-center gap-x-2 gap-y-3 sm:gap-x-4 sm:gap-y-5 grid grid-cols-2 sm:grid-cols-4'>
             {cards.map((item) => (
