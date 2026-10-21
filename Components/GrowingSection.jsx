@@ -13,7 +13,7 @@ const cards = [
 
 export default function GrowingSection() {
   return (
-    <section className='px-3 sm:px-5 lg:px-[6%] py-10 lg:py-16 w-full overflow-hidden'>
+    <section className='px-[6%] py-10 lg:py-16 w-full overflow-hidden'>
       <div className='mx-auto w-full max-w-6xl'>
         <div className='hidden lg:block relative w-full aspect-2/1'>
           {cards.map((item, index) => {

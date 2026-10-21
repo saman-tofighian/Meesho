@@ -1,6 +1,7 @@
 import Footer from '@/Components/Footer';
 import GrowingSection from '@/Components/GrowingSection';
 import Header from '@/Components/Header';
+import InvestorGroup from '@/Components/InvestorGroup';
 import Motto from '@/Components/Motto';
 import OperateSection from '@/Components/OperateSection';
 import Slider from '@/Components/Slider';
@@ -14,6 +15,7 @@ export default function Home() {
         <OperateSection />
         <GrowingSection />
         <Slider />
+        <InvestorGroup />
         <Footer />
       </main>
     </>
