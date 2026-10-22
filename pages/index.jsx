@@ -5,6 +5,7 @@ import InvestorGroup from '@/Components/InvestorGroup';
 import Motto from '@/Components/Motto';
 import OperateSection from '@/Components/OperateSection';
 import Slider from '@/Components/Slider';
+import Stealing from '@/Components/Stealing';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <GrowingSection />
         <Slider />
         <InvestorGroup />
+        <Stealing />
         <Footer />
       </main>
     </>
