@@ -9,8 +9,8 @@ import {
 
 export default function Footer() {
   return (
-    <footer className='mt-4 w-full h-12.5'>
-      <section className='gap-y-8 md:gap-y-0 grid grid-cols-12 px-[6%] w-full h-full'>
+    <footer className='mt-4 mb-2 px-[6%] w-full h-12.5'>
+      <section className='gap-y-8 md:gap-y-0 grid grid-cols-12 pt-5 border border-t-white w-full h-full'>
         <div className='flex justify-center md:justify-start items-center gap-x-6 col-span-12 md:col-span-6 h-full'>
           <span className='flex items-center h-full cursor-pointer'>
             <FaTwitter size='1.4rem' color='white' />

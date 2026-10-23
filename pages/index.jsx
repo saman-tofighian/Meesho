@@ -1,3 +1,4 @@
+import AwardsSection from '@/Components/AwardsSection';
 import Footer from '@/Components/Footer';
 import GrowingSection from '@/Components/GrowingSection';
 import Header from '@/Components/Header';
@@ -18,6 +19,7 @@ export default function Home() {
         <Slider />
         <InvestorGroup />
         <Stealing />
+        <AwardsSection />
         <Footer />
       </main>
     </>
